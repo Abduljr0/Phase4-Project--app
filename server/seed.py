@@ -9,7 +9,7 @@ from app  import app
 
 with app.app_context():
     
-    SearchIcon.delete()
+    SearchIcon.query.delete()
     HomePage.query.delete()
     Login.query.delete()
 
