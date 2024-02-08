@@ -1,11 +1,13 @@
-.App {
-  text-align: center;
-  min-height: 100vh;
+/* App.css */
+
+body {
   background-color: #282c34;
-  display: flex;
-  flex-direction: column;
-  background-image: "https://images.unsplash.com/photo-1575722290270-626b0208df99?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
-  
+}
+
+.App {
+  margin-left: 0px;
+  background-color: #282c34;
+  background-size: cover;
 }
 
 .App-logo {
@@ -27,7 +29,6 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -42,31 +43,198 @@
     transform: rotate(360deg);
   }
 }
-.col{
-  
-}
-#cards {
-  margin-left: 300px;
-  width: 50%;
-  margin-top: 20px;
-}
-nav {
-  height:80px;
-  color: orange;
-  
-}
-.card{
-  float: left;
-}
-.footer {
-background-color: #000000;
-color: aliceblue;
-margin-top: auto;
-}
-.home-div{
-  height:700px;
+
+div .container-fluid {
+  background-color: rgb(80, 125, 141);
+  height: 70px; /* Adjust the height as needed */
+  border-radius: 15px;
+  font-size: 20px; /* Adjust the font size as needed */
+  width: 98%; /* Adjust the width as needed */
+  margin: 10px auto; /* Center the navbar and add margin as needed */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
 
 }
-#Navbar{
-  background-color: olive;
+
+h1 {
+  margin-left: 90px;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+
+div .card {
+  margin-top: 20px;
+  margin-left: 100px;
+  align-items: center;
+  border-radius: 15px;
+  border-width: 0px;
+  text-align: center;
+  background-color: rgb(80, 125, 141);
+}
+
+li {
+  padding-inline-start: 25px;
+}
+
+select {
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+
+}
+
+.search {
+  padding: 0;
+  font-size: 25px;
+  border-radius: 15px;
+  text-align: center;
+  margin-left: -30px;
+
+}
+
+.container {
+  margin-left: 20px;
+}
+
+.card-img-top {
+  border-radius: 15px;
+}
+
+/* Mobile view styles */
+@media (max-width: 767px) {
+  .navbar {
+    background-color: #282c34;
+  }
+
+  .navbar .navbar-nav {
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .navbar .navbar-nav .nav-item {
+    margin: 10px 0;
+  }
+
+  .navbar .navbar-collapse {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Add a class to show/hide the menu based on state */
+  .navbar .navbar-collapse.show-mobile {
+    display: flex;
+  }
+
+  .navbar .navbar-toggler {
+    margin-left: -80px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 10px;
+  }
+
+  div .card {
+    margin-top: 20px;
+    align-items: center;
+    border-radius: 15px;
+    border-width: 0px;
+    text-align: center;
+    background-color: rgb(80, 125, 141);
+    width: 80%;
+    margin: auto;
+  }
+
+  .search-and-category {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 90px;
+  }
+
+  .navbar .navbar-collapse.show-mobile .search-and-category {
+    display: flex;
+  }
+
+  .navbar .navbar-collapse.show-mobile .search-and-category select {
+    margin-left: 10px;
+    padding-left: 10px;
+  }
+
+  .search-input {
+    width: 100px;
+  }
+}
+
+
+/* PC view styles */
+@media (min-width: 768px) {
+  .navbar .navbar-nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .navbar .navbar-nav .nav-item {
+    margin: 0 10px; /* Adjust the margin as needed */
+  }
+
+  .navbar .navbar-toggler {
+    display: none;
+  }
+
+  .search-and-category {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+
+  .search-and-category select {
+    margin-left: 10px;
+    padding-left: 10px;
+  }
+
+  .search-input {
+    width: 200px; /* Adjust the width as needed */
+    margin-left: 55rem;
+  }
+
+  .pc-view {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+
+
+}
+
+.cart-dot {
+  position: relative;
+}
+
+.dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: red;
+  border-radius: 50%;
+  margin-left: 7px;
+}
+
+/* Add this to your CSS file */
+.navbar {
+  background-color: #282c34;
+}
+.Home-page{
+  background-image: url("background.avif");
 }
