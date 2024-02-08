@@ -1,68 +1,77 @@
-# Phase4-Project--app
-# Food Ordering Service API
-This project has been developed by Asma Ali & Abdiqani Adan
-with django for educational
-purposes and should not be used in production without checking for security
-issues and other important stuff.
+## Delivery App
+Welcome to the Delivery App project! This application allows users to place and track delivery orders from various vendors.
 
-For running this on your computer first make sure you have `python3.6` or later
-, then install `virtualenv` package.
-```
-pip install virtualenv
-```
+## Table of Contents
+Features
+Technologies Used
+Setup
+Usage
+Backend
+Frontend
+Contributing
+License 
 
-Create a virtual environment in main directory of the project (same folder as
-this file) preferably with a name like `venv`, `env`, `.venv` or `.env` so
-`.gitignore` file can ignore it without any modification, I assumed you're
-gonna use `.venv`.
-```
-virtualenv .venv
-```
+## Features
+User registration and authentication
+Browsing available vendors and products
+Placing and managing delivery orders
+Real-time order tracking
+Reviewing and rating vendors
 
-Activate your virtual environment:
-```
-source .venv/bin/activate
-```
+## Technologies Used
+## Backend
+Python
+Flask (Web Framework)
+SQLAlchemy (Object-Relational Mapping)
+Flask-Login (User Authentication)
+Flask-CORS (Cross-Origin Resource Sharing)
+SQLite (Database)
 
-Or if you're still using windows:
-```
-.\venv\Scripts\activate
-```
+## Frontend
+HTML/CSS/JavaScript
+React.js (Frontend Framework)
+React Router (Routing)
+Axios (HTTP Requests)
+Material-UI (UI Components)
+Leaflet.js (Maps)
 
-Then install all of the project's dependencies without affecting anything on your
-computer.
-```
-pip install -r requirements.txt
-```
+# Setup
+Backend
+ 1.Clone the repository:
 
-Make migrations:
-```
-python manage.py makemigrations
-```
+git clone https://github.com/Abduljr0/Phase4-Project--app
+cd delivery-app/backend
+Install dependencies:
 
-Apply the created migrations:
-```
-python manage.py migrate
-```
+2.pip install -r requirements.txt
+Run the Flask development server:
 
-Create a super user, the terminal will ask for information itself.
-```
-python manage.py createsuperuser
-```
+3.python app.py
+The backend server should now be running at http://localhost:5000.
 
-Now you can run a Django development server, it will use port `8000` by
-default:
-```
-python manage.py runserver
-```
+Frontend
+1.Navigate to the frontend directory:
+cd ../frontend
+Install dependencies:
 
-Login with your super user `username` and `password` at this url (I assumed
-Django development server is running on the default port and you didn't
-change it.):
-``
-```
+3.npm install
+Run the development server:
 
-Now, because you're a super user you can see all of the API documentations in
-this url, if you visit this url while you are not a super user, you only see
-APIs which you have access to.
-``````
+4.npm start
+The frontend server should now be running at http://localhost:3000.
+
+## Usage
+Register a new account or log in to an existing one.
+Browse available vendors and products.
+Place an order with your desired items.
+Track your order in real-time.
+Review and rate vendors based on your experience.
+Contributing
+Contributions are welcome! Please follow these steps:
+
+Fork the repository.
+Create a new branch for your feature: git checkout -b feature-name.
+Make your changes and commit them: git commit -m 'Add some feature'.
+Push to the branch: git push origin feature-name.
+Submit a pull request.
+
