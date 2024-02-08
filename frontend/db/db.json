@@ -1,0 +1,247 @@
+{
+    "foods": [
+      {
+        "id": 1,
+        "name": "Pizza",
+        "description": "Delicious Italian pizza with various toppings.",
+        "category": "Italian",
+        "price": 10.99,
+        "image": "https://i.pinimg.com/564x/34/f4/8f/34f48f5c56c938642b80b0555e5adf82.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Sushi",
+        "description": "Assorted sushi rolls with fresh ingredients.",
+        "category": "Japanese",
+        "price": 12.50,
+        "image": "https://i.pinimg.com/564x/ae/32/6e/ae326ee3a6a4295cb6da33382eea915f.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Burger",
+        "description": "Classicburger with  veggies.",
+        "category": "American",
+        "price": 8.99,
+        "image": "https://i.pinimg.com/736x/ad/ca/b2/adcab2d2165598c7208bc2105b266c61.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Pad Thai",
+        "description": "Stir-fried rice noodles with shrimp, tofu, peanuts, and vegetables.",
+        "category": "Thai",
+        "price": 11.75,
+        "image": "https://i.pinimg.com/736x/be/61/3e/be613ebbeb5246ab16483a8a7f5ca5bf.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Tacos",
+        "description": "Mexican tacos with seasoned meat, salsa, and toppings.",
+        "category": "Mexican",
+        "price": 9.25,
+        "image": "https://i.pinimg.com/736x/80/42/20/804220b3da579a75260729848db191ed.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Pasta",
+        "description": "Italian-style pasta with marinara sauce.",
+        "category": "Italian",
+        "price": 9.99,
+        "image": "https://i.pinimg.com/736x/49/ca/e2/49cae2a7cc06f85269b350de24f4394c.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Curry",
+        "description": "Spicy Indian curry with your choice of meat or vegetables.",
+        "category": "Indian",
+        "price": 10.50,
+        "image": "https://i.pinimg.com/736x/1e/11/5e/1e115eb17da8de8eb278df6548da461f.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Steak",
+        "description": "Juicy grilled steak with sides.",
+        "category": "American",
+        "price": 15.99,
+        "image": "https://i.pinimg.com/736x/f9/a5/01/f9a501492e67a6a22b7aab52cda4ba0b.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Sushi Boat",
+        "description": "A large assortment of sushi pieces served on a boat-shaped platter.",
+        "category": "Japanese",
+        "price": 35.00,
+        "image": "https://i.pinimg.com/736x/6b/67/b3/6b67b3e07de9c43bf02dc3a0e6c34489.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Pho",
+        "description": "Vietnamese noodle soup with beef or chicken and herbs.",
+        "category": "Vietnamese",
+        "price": 10.50,
+        "image": "https://i.pinimg.com/736x/ee/c8/a4/eec8a4328256aede835cdde420cdaa69.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Paella",
+        "description": "Spanish rice dish with seafood, chorizo, and vegetables.",
+        "category": "Spanish",
+        "price": 13.75,
+        "image": "https://i.pinimg.com/736x/8c/17/03/8c17039a00d1fb2bf0d49f808cee6c05.jpg"
+      },
+      {
+        "id": 12,
+        "name": "Lasagna",
+        "description": "Layers of pasta, cheese, meat, and sauce baked to perfection.",
+        "category": "Italian",
+        "price": 12.25,
+        "image": "https://i.pinimg.com/736x/6e/7e/46/6e7e46b19818bcc01fe132dc46f1e54f.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Hamburger",
+        "description": "Classic American hamburger with all the fixings.",
+        "category": "American",
+        "price": 7.99,
+        "image": "https://i.pinimg.com/736x/f6/32/f3/f632f388c82480ab62b08d598225bf18.jpg"
+      },
+      {
+        "id": 14,
+        "name": "Sashimi",
+        "description": "Assorted slices of raw fish served with soy sauce.",
+        "category": "Japanese",
+        "price": 14.50,
+        "image": "https://i.pinimg.com/736x/e5/bd/63/e5bd6347d2ff7c71be0bce48f303a820.jpg"
+      },
+      {
+        "id": 15,
+        "name": "Chicken Tikka Masala",
+        "description": "Spiced chicken in a creamy tomato sauce served with rice.",
+        "category": "Indian",
+        "price": 11.25,
+        "image": "https://i.pinimg.com/736x/6d/e0/05/6de005459f2db61d89ac2d31446477f6.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Gyudon",
+        "description": "Japanese beef rice bowl with onions and soy-based sauce.",
+        "category": "Japanese",
+        "price": 9.75,
+        "image": "https://i.pinimg.com/736x/54/ff/3a/54ff3a6089a0b0a8a8682ad049acd1d9.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Chow Mein",
+        "description": "Chinese stir-fried noodles with vegetables and meat.",
+        "category": "Chinese",
+        "price": 8.50,
+        "image": "https://i.pinimg.com/736x/c8/72/50/c8725008aa97bd6b155731defc09498a.jpg"
+      },
+      {
+        "id": 18,
+        "name": "Fettuccine Alfredo",
+        "description": "Creamy Italian pasta with parmesan cheese and butter.",
+        "category": "Italian",
+        "price": 10.99,
+        "image": "https://i.pinimg.com/736x/62/0f/c8/620fc8a1152eaba4d4b4f79b57a33214.jpg"
+      },
+      
+       
+          {
+            "id": 19,
+            "name": "cake",
+            "description": "Delicious Italian cake with various toppings.",
+            "category": "Italian",
+            "price": 10.99,
+            "image": "https://i.pinimg.com/564x/33/24/ea/3324ea27478420f7a7431489424c8f9a.jpg"
+          },
+          {
+            "id": 20,
+            "name": "Injera",
+            "description": "Assorted Ethiopian Injera with fresh ingredients.",
+            "category": "Ethiopian",
+            "price": 12.50,
+            "image": "https://i.pinimg.com/564x/e4/c5/73/e4c573b4fcb94279a5dcfd3d72a8c633.jpg"
+          },
+          {
+            "id": 21,
+            "name": "Chilly Burger",
+            "description": "Classic beef burger with cheese and veggies.",
+            "category": "American",
+            "price": 8.99,
+            "image": "https://i.pinimg.com/736x/0e/53/01/0e53019377a07b14be8a13a446da6ef2.jpg"
+          },
+          {
+            "id": 22,
+            "name": "Rice",
+            "description": "Stir-fried rice noodles with shrimp, tofu, peanuts, and vegetables.",
+            "category": "Thai",
+            "price": 11.75,
+            "image": "https://i.pinimg.com/736x/ec/a9/56/eca9561df15ff6367a899a92d31a4ee5.jpg"
+          },
+          {
+            "id": 23,
+            "name": "Spaghetti",
+            "description": "Somalian spaghetti with chilly and toppings.",
+            "category": "Somalia",
+            "price": 9.25,
+            "image": "https://i.pinimg.com/564x/f6/8f/36/f68f36d74796ae95326296076bf694b9.jpg"
+          },
+          {
+            "id": 24,
+            "name": "Pasta",
+            "description": "Italian-style pasta with marinara sauce.",
+            "category": "Italian",
+            "price": 9.99,
+            "image": "https://i.pinimg.com/564x/4a/1d/c0/4a1dc05ddfb81181b7e71fddd1b0dc09.jpg"
+          },
+      
+          {
+            "id": 25,
+            "name": "Kebab",
+            "description": "Grilled skewers and vegetables.",
+            "category": "Asian",
+            "price": 12.99,
+            "image": "https://i.pinimg.com/564x/f9/4d/9b/f94d9bc8f56d3d0302fc7e727947eb0d.jpg"
+          },
+          {
+            "id": 26,
+            "name": "chips",
+            "description": "Japanese chips with seaweed, and green onions.",
+            "category": "Japanese",
+            "price": 4.75,
+            "image": "https://i.pinimg.com/736x/67/3b/fd/673bfd3f58c7f47564edd59e0c11488d.jpg"
+          },
+          {
+            "id": 27,
+            "name": "Moussaka",
+            "description": "Greek baked casserole with eggplant, meat, and béchamel sauce.",
+            "category": "Greek",
+            "price": 14.25,
+            "image": "https://i.pinimg.com/564x/60/76/8e/60768ed8eccdcf5734d1e2acefc78d95.jpg"
+          },
+          {
+            "id": 28,
+            "name": "Ugali",
+            "description": "African white cake.",
+            "category": "African",
+            "price": 7.50,
+            "image": "https://i.pinimg.com/736x/d1/59/16/d15916d323a84bd42a756976f21e8325.jpg"
+          },
+          {
+            "id": 29,
+            "name": "vietname noodles",
+            "description": "Vietnamese noodle soup with beef or chicken and herbs.",
+            "category": "Vietnamese",
+            "price": 10.50,
+            "image": "https://i.pinimg.com/736x/a6/9d/d2/a69dd2afb99c08ebfd6ae302bee3d9ad.jpg"
+          },
+          {
+            "id": 30,
+            "name": "Chapati",
+            "description": "kenyan roested chappati .",
+            "category": "Kenyan",
+            "price": 10.50,
+            "image": "https://i.pinimg.com/736x/be/2d/26/be2d261bdfe29fbe59b98231a500d60c.jpg"
+          }
+        ]
+      }
