@@ -18,6 +18,7 @@ class Foods(db.Model, SerializerMixin):
     description = db.Column(db.String(256))
     category = db.Column(db.String(100), nullable=False)
     price = db.Column(db.Float(range(0,30)), nullable=False)
+    image = db.Column(db.String(256), default='https://i.pinimg.com/736x/ad/ca/b2/adcab2d2165598c7208bc2105b266c61.jpg')
     
 
     
@@ -69,7 +70,7 @@ class Driver(db.Model, SerializerMixin):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String (100), nullable=False)
     contact = db.Column(db.Integer, nullable=False)
-    email = db.Column(db.String(100), nullable=False)
+    email = db.Column(db.String(100), nullable=True)
     adress= db.Column(db.String, nullable=False)
 
     def __repr__(self):

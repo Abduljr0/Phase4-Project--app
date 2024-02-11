@@ -46,10 +46,10 @@ const Cart = () => {
                     <td>{item.price.toLocaleString('en-US', { style: 'currency', currency: 'USD' })}</td>
                     <td>Quantity ({item.quantity})</td>
                     <td>
-                      <button
+                      <button  class="btn btn-primary"
                         onClick={() => updateItemQuantity(item.id, item.quantity - 1)}
                       >-</button>
-                      <button
+                      <button  class="btn btn-primary"
                         onClick={() => updateItemQuantity(item.id, item.quantity + 1)}
                       >+</button>
                       <button  type="button" class="btn btn-primary"
@@ -66,7 +66,7 @@ const Cart = () => {
           <h2>Total : {cartTotal.toLocaleString('en-US', { style: 'currency', currency: 'USD' })}</h2>
         </div>
         <div>
-          <button
+          <button  class="btn btn-primary"
             onClick={() => window.confirm("Are you sure you want to clear the cart?") && emptyCart()}
           >Clear Cart</button>
           <button type="button" class="btn btn-success" onClick={() => window.confirm("your order is being processed and will be delivered  soon Thank you!")} >Buy Now</button>
