@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Phase4-Project--app/static/css/main.883875cd.css",
+    "main.js": "/Phase4-Project--app/static/js/main.2e840587.js",
+    "static/js/592.108e6103.chunk.js": "/Phase4-Project--app/static/js/592.108e6103.chunk.js",
+    "static/media/background.avif": "/Phase4-Project--app/static/media/background.e95ed497e48fe5dadd19.avif",
+    "index.html": "/Phase4-Project--app/index.html",
+    "main.883875cd.css.map": "/Phase4-Project--app/static/css/main.883875cd.css.map",
+    "main.2e840587.js.map": "/Phase4-Project--app/static/js/main.2e840587.js.map",
+    "592.108e6103.chunk.js.map": "/Phase4-Project--app/static/js/592.108e6103.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.883875cd.css",
+    "static/js/main.2e840587.js"
+  ]
+}
